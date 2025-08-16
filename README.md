@@ -1,4 +1,4 @@
-<img width="1835" height="905" alt="Screenshot 2025-05-25 104347" src="https://github.com/user-attachments/assets/80910623-b7a3-425b-8266-d83bdfadb6d2" /># 🌍 Eco-Friendly Route Finder
+# 🌍 Eco-Friendly Route Finder
 
 An interactive **Flask-based web application** that helps users find eco-friendly routes with distance, duration, and estimated CO₂ emissions.
 It integrates **OpenRouteService API**, **Folium maps**, and provides **user authentication** for a personalized experience.
@@ -90,3 +90,4 @@ The app will be available at **[http://127.0.0.1:5000](http://127.0.0.1:5000)** 
 ## 📜 License
 
 This project is licensed under the **MIT License**. Feel free to use and modify! ✨
+
