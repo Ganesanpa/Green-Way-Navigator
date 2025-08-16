@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>My Routes</title></head>
+<body>
+  <h2>My Saved Routes</h2>
+  <ul>
+    {% for r in routes %}
+    <li>
+      {{ r.start }} to {{ r.end }} via {{ r.mode }} - Distance: {{ r.distance }} km, Emission: {{ r.emission }} kg
+    </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">New Route</a>
+</body>
+</html>

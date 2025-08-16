@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head><title>Eco Route</title></head>
+<body>
+  <h2>Find Eco-Friendly Route</h2>
+  <form method="POST" action="{{ url_for('eco_route') }}">
+  <label for="origin">Origin:</label>
+  <input type="text" name="origin" id="origin" required>
+
+  <label for="destination">Destination:</label>
+  <input type="text" name="destination" id="destination" required>
+
+  <label for="mode">Transport Mode:</label>
+  <select name="mode" id="mode" required>
+    <option value="driving-car">Driving</option>
+    <option value="cycling-regular">Cycling</option>
+    <option value="foot-walking">Walking</option>
+  </select>
+
+  <button type="submit">Find Eco-Friendly Route</button>
+</form>
+
+</body>
+</html>
