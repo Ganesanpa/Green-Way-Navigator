@@ -5,7 +5,7 @@ from routes import get_route_data
 from werkzeug.security import generate_password_hash, check_password_hash
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '5b3ce3597851110001cf6248e063d4a9e73b4387bfc3579f8f9ec16e'
+app.config['SECRET_KEY'] = 'API_Key'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///eco_routes.db'
 db = SQLAlchemy(app)
 login_manager = LoginManager()

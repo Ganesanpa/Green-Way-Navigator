@@ -22,7 +22,7 @@ def get_route_data(origin,destination, mode):
     }
 
 
-    client = openrouteservice.Client(key='5b3ce3597851110001cf6248e063d4a9e73b4387bfc3579f8f9ec16e')
+    client = openrouteservice.Client(key='Secret_Key')
     coords = ((loc1.longitude, loc1.latitude), (loc2.longitude, loc2.latitude))
     route = client.directions(coords, profile=mode, format='geojson')
 
